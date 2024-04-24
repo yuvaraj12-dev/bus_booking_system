@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.passengerDetails{
+    padding : 0px 0px 10px;
+}
+.seatFrom{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+.seatBox{
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    min-height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+.numOfSeat{
+    display : flex;
+    padding: 0px 20px 20px;
+}
+.numOfSeat button{
+    border-radius: 5px;
+    padding: 1px 1px 1px;
+}
+.personFrom{
+    width: 40%;
+    height: 500px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: 10%;
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    padding : 0px 20px 10px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+.leftSeats{
+    width: 150%;
+    display: grid;
+    grid-gap: 2px;
+    justify-content : center;
+    grid-template-columns : 30px 30px;
+    margin-left: 5%;
+}
+.rightSeats{
+    width: 150%;
+    display: grid;
+    grid-gap: 2px;
+    justify-content : center;
+    grid-template-columns : 30px 30px;
+    margin-right: 5%;
+}
+
+h1{
+    color:coral;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+
+button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  }
+  .logInBg {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    background-image: url('./components/images/loginBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.searchBg{
+  margin: 0;
+  padding: 0;
+  height: 120vh;
+  background-image: url('./components/images/searchBgImage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.passengerTrain{
+    width : 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 10vh;
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    padding : 20px;
+    background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.4);
+}
+.selectSeatError{
+    margin-top : 30%;
+}
+
+.availableBusBg {
+  background-color : Gainsboro;
+}
+
+.passengerBg{
+   padding: 20px;
+   height: 100%;
+   filter: brightness(90%);
+   background-image: url('./components/images/passengerImage.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.editBg{
+   padding: 20px;
+   height: 120vh;
+    filter: brightness(90%);
+   background-image: url('./components/images/editBg.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: #555;
+}
+.offer1{
+    padding : 50% 20% 0px;
+}
+.offer1 button{
+    padding : 3% 20% 0px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+.driverSeat{
+    margin-left: 40%;
+    color : black;
+}
+table th{
+    text-align : center;
+}
+.featureError{
+    background: Khaki;
+    border-radius: 5px;
+    padding : 2px 5px 2px;
+}
+marquee a {text-decoration: none;}
+
+.text-color {
+    color: chartreuse;
+}
+
+.passenger-color {
+    color: aliceblue;
+}
+
+.seat-color {
+    color: blanchedalmond;
+}
+
+
+.loader {
+    position : fixed;
+    margin-left : 12%;
+    margin-top : 10%;
+    font-size:150%;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+.earthLoader{
+    margin-top: -20%;
+    font-size:352%;
+    animation: spin 1s linear infinite;
+}
+.busLoader{
+    font-size:110%;
+}
+.sleeper{
+
+}
+
+.tableDiv td {
+    width: 5%;
+}
+.filter{
+    width : 40%;
+    padding : 0px 20px 0px;
+}
+
+.redbus1 {
+    background-image: url('./components/images/redbusCoupons.jpg');
+    background-size: cover;
+    width: 15%;
+}
+.redbus2 {
+    background-image: url('./components/images/RedBusLP.png');
+    background-size: cover;
+    width: 15%;
+}
+.redbus3 {
+    background-image: url('./components/images/redbus3.jpg');
+    background-size: cover;
+    width: 15%;
+}
+.redbus4 {
+    background-image: url('./components/images/images1.jpeg');
+    background-size: cover;
+    width: 15%;
+}
+
+.psg {
+    width: 30rem;
+    backgroundImage: url('https://www.clio.com/wp-content/uploads/2021/10/lawyer-payment-methods.png');
+    backgroundSize: cover;
+    backgroundRepeat: no-repeat;
+}
+
+.test h1 {
+    font-family: 'Times New Roman', serif;
+}
